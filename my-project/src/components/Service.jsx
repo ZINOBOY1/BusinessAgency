@@ -40,8 +40,8 @@ const Service = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 1, delay: 0.2 }}
                             className="relative">
-                            <div className="absolute -inset-1 blur bg-[#33cccc]"></div>
-                            <div className="border rounded-md relative flex flex-col space-y-3 bg-[#8eecec] hover:bg-[#33cccc] hover:transition-all p-7 h-full min-h-[300px]">
+                            <div className="absolute"></div>
+                            <div className="border rounded-md relative flex flex-col space-y-3 bg-[#8eecec]  hover:transition-all p-7 h-full min-h-[300px]">
                                 <img src={service.icon} alt={service.name} className="w-20 rounded-full mb-3" />
                                 <h3 className="text-2xl font-semibold mb-2">{service.name}</h3>
                                 <p className="font-semibold text-xl">{service.description}</p>
